@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={lato.className}>
-      <body>{children}</body>
+      <body className='antialiased bg-[#EAEEFE]'>{children}</body>
     </html>
   )
 }
