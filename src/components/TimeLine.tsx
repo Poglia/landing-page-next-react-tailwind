@@ -29,7 +29,7 @@ const Timeline = () => {
       <h2
         className="text-4xl md:text-5xl font-bold tracking-tighter 
         bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
-        mt-5 py-10 px-4 sm:px-6 lg:px-8 flex items-center justify-center text-center"
+         pt-10 pb-20 sm:px-6 lg:px-8 flex items-center justify-center text-center"
       >
         Como Podemos Ajudar
       </h2>
@@ -39,15 +39,15 @@ const Timeline = () => {
             <div className="w-16 h-16 flex items-center justify-center bg-black text-white rounded-full text-3xl">
               {step.icon}
             </div>
-            <div className="w-[2px] h-16 bg-blue-300"></div>
+            <div className="w-[2px] h-16 bg-black"></div>
             <div className="text-center mt-4">
-              <h3 className="text-lg font-semibold text-gray-700">{step.title}</h3>
-              <p className="mt-2 text-sm text-gray-500">{step.description}</p>
+              <h3 className="text-xl font-semibold text-gray-700 tracking-tighter  ">{step.title}</h3>
+              <p className="mt-2 text-lg text-gray-500 w-80 lg:w-full">{step.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <button className="btn btn-primary ">Avalie meu caso gratuitamente</button>
+      <button className="btn btn-primary text-lg">Avalie meu caso gratuitamente</button>
     </div>
   );
 };
