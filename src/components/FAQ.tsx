@@ -9,30 +9,30 @@ import { motion, AnimatePresence } from "framer-motion";
 const items = [
   {
     question:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque tempus suscipit?",
+      "Quanto tempo demora a ação?",
     answer:
-      "Sed velit sapien, commodo ac nunc et, venenatis commodo purus. Etiam condimentum aliquet lacus sit amet rutrum. Etiam nec mollis dui. Sed euismod quis nisl sed finibus.",
+      "Geralmente, é possível obter uma liminar em até 15 dias.",
   },
   {
-    question: "Nam non dictum arcu. Nullam id sodales metus. ?",
+    question: "E se o Estado ou plano não cumprir?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque tempus suscipit. Curabitur cursus tempus lacinia. Cras posuere auctor dolor, id congue eros commodo in. Donec consectetur pellentesque consectetur. Donec iaculis aliquam ultrices. Quisque a gravida purus, eget mollis nulla. Pellentesque efficitur urna nec augue aliquet blandit. Donec tincidunt, eros id dignissim dapibus, magna ex elementum erat, nec mattis sem erat a sem.",
+      "Garantimos a execução imediata das ordens judiciais.",
   },
   {
     question:
-      "Nam auctor magna orci. In hac habitasse platea dictumst.?",
+      "O plano de saúde pode interferir na prescrição médica?",
     answer:
-      "Ut sagittis varius condimentum. In arcu lacus, rutrum id diam et, luctus semper elit. Ut non justo facilisis lectus aliquam imperdiet ut eu felis.",
+      "Não, o plano de saúde não tem autoridade para realizar modificações na prescrição de medicamentos ou tratamentos médicos.",
   },
   {
-    question: "Donec volutpat quam a metus accumsan vehicula?",
+    question: "O tipo de plano de saúde pode interferir no custeio do remédio de alto custo?",
     answer:
-      "Nullam maximus efficitur enim, quis tristique felis ornare ac. Vivamus vitae commodo urna. Proin sapien justo, ornare non nisl et, fringilla commodo nulla. Sed ligula ex, sodales non sapien nec, volutpat mollis tortor. Morbi ligula est, tincidunt eu egestas non, viverra id orci. Donec accumsan ut risus sed fermentum. ",
+      "Importante ressaltar que a categoria do seu plano de saúde não influencia na decisão de cobrir ou não seus remédios de alto custo. Isso significa que, independentemente de seu plano ser individual, coletivo por adesão ou coletivo empresarial, a cobertura dos medicamentos necessários deve ser assegurada.",
   },
   {
-    question: " Praesent ornare felis eu congue euismod?",
+    question: " O que fazer diante da negativa de medicamento de alto custo pelo Plano de Saúde?",
     answer:
-      "Praesent ornare felis eu congue euismod. Suspendisse posuere, lectus nec iaculis pretium, eros enim convallis orci, et efficitur dui libero sit amet tellus. Aenean tempus, turpis quis dictum lobortis, lorem massa vulputate ex, ut sodales orci diam eu turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "A primeira ação é obter um relatório médico detalhado. Este relatório é crucial, pois deve justificar a necessidade específica do medicamento prescrito. O próximo passo é buscar o auxílio de um advogado especializado em direito à saúde. Este profissional tem a capacidade de usar o relatório médico como base para argumentar tanto sob o ponto de vista jurídico quanto científico."
   },
 ];
 
