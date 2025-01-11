@@ -83,7 +83,7 @@ const AccordionItem = ({
 
 export const FAQ = () => {
   return (
-    <div className="bg-gradient-to-b from-[#D2DCFF] to-[#FFFFFF] py[72px] sm:py-24">
+    <div className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py[72px] sm:py-24">
       <div className="container mx-auto">
         <h2
           className="text-4xl md:text-5xl 12 max-w-[648px] mx-auto sm:text-6xl font-bold tracking-tighter 
