@@ -17,7 +17,7 @@ export const Hero = () => {
                 <div className="flex gap-1  items-center mt-[30px]">
                     <button className="btn btn-primary ">Avalie meu caso</button>
                     <button className="btn btn-text gap-1">
-                        <span>Saiba Mais</span>
+                        <span>Saiba Mais </span>
                         <FaArrowRight className="h-5 w-5"/>
                     </button>
                 </div>

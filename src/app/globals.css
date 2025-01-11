@@ -8,7 +8,7 @@
     }
 
     .btn{
-        @apply bg-black text-white ;
+        @apply bg-black	 text-white ;
     }
 
     .btn-text{
