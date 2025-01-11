@@ -8,11 +8,11 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description }) => {
     return (
-        <div className="relative flex flex-row overflow-hidden  py-6 px-4 sm:px-6">
-          <div className="group relative overflow-hidden overflow-clip-rounded bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-lg sm:mx-[10px] sm:max-w-sm sm:px-3">
+        <div className="relative flex flex-row overflow-hidden py-6 px-4 sm:px-0">
+          <div className="group relative overflow-hidden overflow-clip-rounded bg-white pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-lg sm:mx-[5px] sm:max-w-sm sm:px-3">
 
-            <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-black transition-all duration-1000 group-hover:scale-[20]"></span>
-            <div className="relative z-10 mx-auto max-w-md">
+            <span className="absolute mx-3 top-10 z-0 h-20 w-20 rounded-full bg-black transition-all duration-1000 group-hover:scale-[20]"></span>
+            <div className="relative z-10 mx-3 max-w-md">
               <span className="grid h-20 w-20 place-items-center rounded-full bg-black transition-all duration-300 group-hover:bg-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

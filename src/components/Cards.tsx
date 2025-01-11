@@ -17,10 +17,10 @@ export const Cards = () => {
           amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
           consectetur adipiscing elit.
         </p>
-        <div className="flex md:flex-row flex-col gap-10 items-center justify-center">
+        <div className="flex md:flex-row flex-col gap-5 sm:gap-2 items-center justify-center">
           <Card
             title="Perguntas Frequentes"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque tempus suscipit. Curabitur cursus tempus lacinia. Cras posuere auctor dolor, id congue eros commodo in. Donec consectetur pellentesque consectetur. Donec iaculis aliquam ultrices. Quisque a gravida purus, eget mollis nulla."
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque tempus suscipit. Curabitur cursus tempus lacinia. Cras posuere auctor dolor, id congue eros commodo in. Donec consectetur pellentesque consectetur. Donec iaculis aliquam ultrices. Quisque a geravida purus, eget mollis nulla."
           />
           <Card
             title="Perguntas Frequentes"
