@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({ title, description }) => {
           </span>
           <div className="flex flex-col justify-between h-[20rem]  pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90 ">
             <p className="my-4">{description}</p>
-            <button className="btn btn-primary group-hover:bg-white text-xl tracking-tighter group-hover:text-black cursor-pointer self-start">
+            <button className="btn btn-primary group-hover:bg-white text-lg -tracking-tight group-hover:text-black cursor-pointer self-start">
               Avalie meu caso
             </button>
             {/* <div className="h-10 w-10 bg-red-500 sm:bg-green-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-teal-500"></div> */}
