@@ -8,7 +8,7 @@ export const CallToAction = () => {
           Você ou um familiar precisa de um medicamento de alto custo? Nós
           podemos ajudar!
         </h2>
-        <button className="btn btn-primary text-2xl md:text-2xl my-20 flex bg-black">
+        <button className="btn btn-primary text-2xl md:text-2xl my-20 flex bg-black py-5 px-10">
           <span className="text-transparent animated-gradient-text">
             Avalie meu caso gratuitamente
           </span>

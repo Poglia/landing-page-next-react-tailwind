@@ -5,6 +5,7 @@ import { Hero } from "@/components/Hero";
 import { LogoTicker } from "@/components/LogoTicker";
 import TimeLine from "@/components/TimeLine";
 import { CallToAction } from "@/components/CallToAction";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TimeLine/>
       <CallToAction/>
       <FAQ/>
+      <About/>
     </>
   );
   

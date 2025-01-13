@@ -26,11 +26,11 @@
     }
 
     .animated-gradient-text {
-        background: linear-gradient(270deg, #ffffff, #87cefa, #ffffff);
+        background: linear-gradient(270deg, #ffffff, #7a6ed1, #ffffff);
         background-size: 400% 400%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: gradient-text-move 2s infinite;
+        animation: gradient-text-move 5s infinite;
     }
     
     @keyframes gradient-text-move {
