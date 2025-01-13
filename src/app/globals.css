@@ -18,4 +18,31 @@
     .logo-ticker-image {
         @apply h-16 md:h-28 w-auto
     }
+
+    .h-styles{
+        @apply text-4xl md:text-5xl font-bold tracking-tighter 
+        bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
+        sm:pt-5 pt-40 mb-20  px-4 sm:px-6 lg:px-8 flex items-center justify-center text-center
+    }
+
+    .animated-gradient-text {
+        background: linear-gradient(270deg, #ffffff, #87cefa, #ffffff);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient-text-move 2s infinite;
+    }
+    
+    @keyframes gradient-text-move {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
 }

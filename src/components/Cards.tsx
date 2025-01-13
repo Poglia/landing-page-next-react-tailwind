@@ -5,9 +5,7 @@ export const Cards = () => {
     <section className=" bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-20 ">
       <div className="container mx-auto">
          <h2
-            className="text-4xl md:text-5xl font-bold tracking-tighter 
-            bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
-            mt-5 mb-20  px-4 sm:px-6 lg:px-8 flex items-center justify-center text-center"
+            className="h-styles"
         >
          Conheça seus direitos{" "}
         </h2>

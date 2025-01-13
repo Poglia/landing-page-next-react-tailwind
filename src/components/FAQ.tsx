@@ -86,10 +86,7 @@ export const FAQ = () => {
     <div className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py[72px] sm:py-24">
       <div className="container mx-auto">
         <h2
-          className="text-4xl md:text-5xl 12 max-w-[648px] mx-auto sm:text-6xl font-bold tracking-tighter 
-        bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
-        py-10 px-30 flex items-center justify-center text-center"
-        >
+          className="h-styles">
           Perguntas Frequentes
         </h2>
         <div className="mt-12">

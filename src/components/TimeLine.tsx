@@ -27,9 +27,7 @@ const Timeline = () => {
   return (
     <div className="flex flex-col items-center w-full py-10 bg-gradient-to-b from-[#D2DCFF] to-[#FFFFFF] ">
       <h2
-        className="text-4xl md:text-5xl font-bold tracking-tighter 
-        bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
-         pt-10 pb-20 sm:px-6 lg:px-8 flex items-center justify-center text-center"
+        className="h-styles"
       >
         Como Podemos Ajudar
       </h2>
@@ -47,7 +45,6 @@ const Timeline = () => {
           </div>
         ))}
       </div>
-      <button className="btn btn-primary text-lg">Avalie meu caso gratuitamente</button>
     </div>
   );
 };
