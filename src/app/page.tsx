@@ -6,6 +6,7 @@ import { LogoTicker } from "@/components/LogoTicker";
 import TimeLine from "@/components/TimeLine";
 import { CallToAction } from "@/components/CallToAction";
 import About from "@/components/About";
+import { CallToActionFinal } from "@/components/CallToActionFinal";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CallToAction/>
       <FAQ/>
       <About/>
+      <CallToActionFinal/>
     </>
   );
   
