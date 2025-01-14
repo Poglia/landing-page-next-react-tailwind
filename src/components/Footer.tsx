@@ -23,9 +23,9 @@ const Footer = () => {
             <p className="text-xs">
                {new Date().getFullYear()} Escritório de Advocacia Poglia Advogados. 
             </p>
-            <p className="text-xs">Todos os direitos reservados.</p>
-            <p className="text-xs text-gray-600  mt-4">
-              Desenvolvido por <span className="font-semibold italic">Pedro Poglia ©</span>.
+            <p className="text-xs mb-10">Todos os direitos reservados.</p>
+            <p className="text-xs text-gray-600 flex justify-center italic">
+              Desenvolvido por <a href="https://www.linkedin.com/in/pedropoglia/"><span className="font-semibold ml-1"> Pedro Poglia ©</span></a>.
             </p>
           </div>
         </div>
