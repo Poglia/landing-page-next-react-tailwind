@@ -10,7 +10,7 @@ export const CallToAction = () => {
           podemos ajudar!
         </h2>
         <Image src={GostHand} alt="GostHand" width={350} height={350} className="md:h-full w-auto"/>
-        <button className="btn btn-primary text-2xl md:text-2xl my-20 flex bg-black py-5 px-10">
+        <button className="btn btn-primary text-xl md:text-2xl my-20 flex bg-black py-5 px-10">
           <span className="text-transparent animated-gradient-text">
             Avalie meu caso gratuitamente
           </span>

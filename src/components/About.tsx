@@ -22,17 +22,18 @@ const About = () => {
           alt="Logo"
           className=" mx-auto"
         />
-        <h3 className="mt-4 text-4xl text-gray-700 font-bold">
+        <h3 className="my-4 text-2xl sm:text-4xl text-gray-700 font-bold">
           Especialistas em Direito Médico e Saúde.
         </h3>
-        <p className="mt-2 text-gray-600 text-lg">
+        <p className="mt-2 text-gray-600 text-lg text-justify font-semibold">
           Com anos de experiência, nosso escritório já ajudou centenas de
           pacientes a conquistarem seus direitos.
         </p>
-        <div className="flex flex-row items-baseline justify-center ">
-          <p className="mt-10 text-xl font-semibold text-gray-900 mr-1">Missão:</p>
-          <p className="mt-10 text-lg text-gray-700 italic flex items-baseline tracking-tigh">
-            Proporcionar acesso à saúde por meio da justiça. <FaHeartPulse className="text-3xl ml-2"/>
+        <div className="flex flex-col items-center justify-center ">
+          <p className="mt-10 text-xl text-gray-700 font-semibold ">Missão</p>
+          <p className="mt-10 text-lg  font-bold italic flex tracking-tighter text-gray-900">
+            Proporcionar acesso à saúde por meio da justiça. 
+            {/* <FaHeartPulse className="text-3xl ml-2"/> */}
           </p>
         </div>
       </div>
