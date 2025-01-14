@@ -30,11 +30,11 @@ const About = () => {
           pacientes a conquistarem seus direitos.
         </p>
         <div className="flex flex-col items-center justify-center ">
-          <p className="mt-10 text-xl text-gray-700 font-semibold ">Missão</p>
-          <p className="mt-10 text-lg  font-bold italic flex tracking-tighter text-gray-900">
+          <p className="mt-10 text-xl text-gray-700 font-semibold">Missão</p>
+          <p className="text-lg italic flex tracking-tighter text-gray-900">
             Proporcionar acesso à saúde por meio da justiça. 
-            {/* <FaHeartPulse className="text-3xl ml-2"/> */}
           </p>
+            <FaHeartPulse className="text-5xl mt-5 text-gray-700"/>
         </div>
       </div>
     </section>
