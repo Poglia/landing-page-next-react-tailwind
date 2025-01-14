@@ -22,10 +22,12 @@ export function Header () {
                         <Image src={Logo} alt="Logo" width={40} height={40} className=" text-black/60"/>
                         <IoMenu className="h-7 w-7 md:hidden"/>
                         <nav className="hidden md:flex gap-6 text-black/60 items-center">
-                            <a href="#">Serviços</a>
-                            <a href="#">Sobre Nós</a>
-                            <a href="#">Perguntas Frequentes</a>
-                            <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items-center justify-center tracking-tight">Avalie meu caso</button>
+                            <a href="#servicos">Serviços</a>
+                            <a href="#sobrenos">Sobre Nós</a>
+                            <a href="#perguntasFrequentes">Perguntas Frequentes</a>
+                            <a href="https://forms.gle/dKCxALGxEf3yM24Y9" target="blank">
+                                <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items-center justify-center tracking-tight">Avalie meu caso</button>
+                            </a>
                         </nav>
                     </div>
                 </div>

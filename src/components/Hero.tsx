@@ -15,11 +15,14 @@ export const Hero = () => {
                 <p className="text-xl text-[#010D3E] tracking-tight mt-5 ">Especialistas em ações judiciais, reverter negativas de medicamentos e tratamentos é a nossa missão. Garantimos seu acesso rápido à saúde que você merece!
                 </p>
                 <div className="flex gap-1  items-center mt-[30px]">
+                    <a href="https://forms.gle/dKCxALGxEf3yM24Y9" target="blank">
                     <button className="btn btn-primary ">Avalie meu caso</button>
+                    </a>
                     <button className="btn btn-text gap-1">
                         <span>Saiba Mais </span>
                         <FaArrowRight className="h-5 w-5"/>
                     </button>
+                    <a href=""></a>
                 </div>
             </div>
             <div className="mt-20 md:mt-0 md:h-[600px] md:flex-1">

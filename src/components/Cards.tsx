@@ -2,9 +2,9 @@ import Card from "./components/Card";
 
 export const Cards = () => {
   return (
-    <section className=" bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-20 ">
+    <section id="servicos" className=" bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-20 ">
       <div className="container mx-auto">
-         <h2
+         <h2 
             className="h-styles"
         >
          Conheça seus direitos{" "}
