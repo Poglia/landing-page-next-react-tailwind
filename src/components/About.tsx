@@ -9,10 +9,7 @@ const About = () => {
     <section className="py-16 bg-gradient-to-b from-[#D2DCFF] to-white" id="sobrenos">
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2
-          className="text-4xl md:text-7xl font-bold tracking-tighter 
-        bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text 
-         pt-10 pb-20 sm:px-6 lg:px-8 flex items-center justify-center text-center"
-        >
+          className="h-styles">
           Sobre nós
         </h2>
         <Image
