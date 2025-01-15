@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             <p className="text-xs mb-10">Todos os direitos reservados.</p>
             <p className="text-xs text-gray-600 flex justify-center italic">
-              Desenvolvido por <a href="https://www.linkedin.com/in/pedropoglia/"><span className="font-semibold ml-1"> Pedro Poglia ©</span></a>.
+              Desenvolvido por <a href="https://www.linkedin.com/in/pedropoglia/" target="_blank"><span className="font-semibold ml-1"> Pedro Poglia ©</span></a>.
             </p>
           </div>
         </div>
