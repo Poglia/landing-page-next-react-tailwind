@@ -21,11 +21,12 @@ const Footer = () => {
           {/* Direitos Autorais */}
           <div className="border-t border-gray-700 pt-4">
             <p className="text-xs">
-               {new Date().getFullYear()} Escritório de Advocacia Poglia Advogados. 
+               Escritório de Advocacia Poglia Advogados. 
             </p>
-            <p className="text-xs mb-10">Todos os direitos reservados.</p>
+            <p className="text-xs mb-10">Todos os direitos reservados.  ©</p>
             <p className="text-xs text-gray-600 flex justify-center italic">
-              Desenvolvido por <a href="https://www.linkedin.com/in/pedropoglia/" target="_blank"><span className="font-semibold ml-1"> Pedro Poglia ©</span></a>.
+              Desenvolvido por <a href="https://www.linkedin.com/in/pedropoglia/" target="_blank"><span className="font-extrabold mx-1"> Pedro Poglia</span></a>
+              {new Date().getFullYear()  } ©
             </p>
           </div>
         </div>
